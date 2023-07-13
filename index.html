@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>InkPad - Your Personal Note-taking Companion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>InkPad</h1>
+      <p>Your Personal Note-taking Companion</p>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="note-area">
+          <textarea id="noteArea" placeholder="Start typing your notes..."></textarea>
+        </div>
+        <div class="button-container">
+          <button onclick="saveNote()">Save Note</button>
+          <button onclick="clearNote()">Clear Note</button>
+        </div>
+      </div>
+
+      <div id="noteContainer"></div>
+    </main>
+
+    <div id="notification"></div>
+
+    <footer>
+      <p>© 2023 InkPad. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
