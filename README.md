@@ -1,10 +1,6 @@
 <h1 align="center">InkPad</h1>
 
 <p align="center">
-    <img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License">
-</p>
-
-<p align="center">
     **Your Personal Note-taking Companion**
 </p>
 
